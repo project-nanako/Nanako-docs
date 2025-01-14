@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Nanako",
   description: "立志做最可爱的 RoboMaster 开源框架",
+  base: "/Nanako-docs/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
