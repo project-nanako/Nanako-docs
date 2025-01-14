@@ -4,6 +4,26 @@ Nanako 不使用传统的 ROS 2, 而是采用 [dora](https://dora-rs.ai) 作为�
 
 作为开发者, 你仍然可以使用 C++, Python 进行开发, 但 Nanako 更推荐使用 Rust 作为主要的开发语言.
 
+## Tasks
+
+- 移植 webcam node
+
+- 移植 hik-camera node
+
+- 移植 opt-camera node
+
+- 移植 [rm-vision](https://gitlab.com/rm_vision) 的 auto-aim 模块
+
+  - armor_detector
+
+  - armor_tracker
+
+- 移植 [FYT2024_vision](https://github.com/CSU-FYT-Vision/FYT2024_vision) 的 rm_rune 模块
+
+  - rune_detector
+
+  - rune_solver
+
 ## Q&A
 
 - Q1: 为什么不使用 ROS 2?
